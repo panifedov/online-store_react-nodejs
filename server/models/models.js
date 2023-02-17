@@ -49,6 +49,7 @@ const TypeBrand = sequelize.define('type_brand', {
     id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
 })
 
+
 User.hasOne(Basket)
 Basket.belongsTo(User)
 
@@ -87,3 +88,7 @@ module.exports = {
     TypeBrand,
     DeviceInfo
 }
+
+
+
+
