@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Col from 'react-bootstrap/Col'
+import BrandBar from '../components/BrandBar';
 import TypeBar from '../components/TypeBar';
 
 const Shop = () => {
@@ -10,8 +11,8 @@ const Shop = () => {
                 <Col className='mt-2' md={3}>
                     <TypeBar/>
                 </Col>
-                <Col md={9}>
-
+                <Col  md={1}>
+                    <BrandBar/>
                 </Col>
             </Row>
         </Container>
