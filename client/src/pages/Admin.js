@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {Button, Container} from "react-bootstrap";
-import CreateBrand from "../components/modals/CreateBrand.js";
-import CreateDevice from "../components/modals/CreateDevice.js";
-import CreateType from "../components/modals/CreateType.js";
+import CreateBrand from "../components/modals/CreateBrand";
+import CreateDevice from "../components/modals/CreateDevice";
+import CreateType from "../components/modals/CreateType";
 
 const Admin = () => {
     const [brandVisible, setBrandVisible] = useState(false)
