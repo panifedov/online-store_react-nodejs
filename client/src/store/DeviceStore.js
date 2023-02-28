@@ -3,20 +3,23 @@ import {makeAutoObservable} from 'mobx';
 export default class DeviceStore {
     constructor() {
         this._types = [
-            {id:1, name: 'холодильник'},
-            {id:2, name: 'dqwd'}
+            {id:1, name: 'Холодильник'},
+            {id:2, name: 'Смартфон'},
+            {id:3, name: 'Ноутбук'},
+            {id:4, name: 'Телевизор'}
         ] 
         this._brands = [
-            {id:1, name: 'gfd'},
-            {id:2, name: 'dqwvfdsxcvgfdcvfrd'}
+            {id:1, name: 'Samsung'},
+            {id:2, name: 'Apple'}
         ]
-         
+        
         this._devices = [
             {id:1, name: 'холодильник', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
-            {id:2, name: 'dqwd', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
-            {id:3, name: 'хол12r42одильник', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
-            {id:4, name: 'vlvfpewl1  ', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '}
+            {id:2, name: 'Смартфон', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:3, name: 'Ноутбук', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:4, name: 'Телевизор  ', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '}
         ]
+        this._selectedType = {}
         makeAutoObservable(this)
     }
 
@@ -28,6 +31,9 @@ export default class DeviceStore {
     }
     setDevices(devices) {
         this._devices = devices
+    }
+    setSelectedType(type) {
+        this._selectedType = type
     }
     
     get types() {
