@@ -16,10 +16,20 @@ export default class DeviceStore {
         ]
         
         this._devices = [
-            {id:1, name: 'холодильник', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
-            {id:2, name: 'Смартфон', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
-            {id:3, name: 'Ноутбук', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
-            {id:4, name: 'Телевизор  ', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '}
+            {id:1, name: 'Iphone 14 pro', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:2, name: 'Iphone 14 pro', price: 25000, rating: 2, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:3, name: 'Iphone 14 pro', price: 25000, rating: 4, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:4, name: 'Iphone 14 pro  ', price: 25000, rating: 45, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:1, name: 'Iphone 14 pro', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:2, name: 'Iphone 14 pro', price: 25000, rating: 2, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:3, name: 'Iphone 14 pro', price: 25000, rating: 4, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:4, name: 'Iphone 14 pro  ', price: 25000, rating: 45, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},            {id:1, name: 'Iphone 14 pro', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:2, name: 'Iphone 14 pro', price: 25000, rating: 2, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:3, name: 'Iphone 14 pro', price: 25000, rating: 4, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:4, name: 'Iphone 14 pro  ', price: 25000, rating: 45, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},            {id:1, name: 'Iphone 14 pro', price: 25000, rating: 5, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:2, name: 'Iphone 14 pro', price: 25000, rating: 2, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:3, name: 'Iphone 14 pro', price: 25000, rating: 4, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
+            {id:4, name: 'Iphone 14 pro  ', price: 25000, rating: 45, img: 'https://pixabay.com/photos/cat-young-animal-kitten-gray-cat-2083492/ '},
         ]
         this._selectedType = {}
         this._selectedBrand = {}

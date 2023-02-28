@@ -3,6 +3,7 @@ import {Context} from "../index";
 import React, {useContext} from 'react';
 import { Card, Row } from 'react-bootstrap';
 
+
 const BrandBar = observer(() => {
     const {device} = useContext(Context)
     return (
